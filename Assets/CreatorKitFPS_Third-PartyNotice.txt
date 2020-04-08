@@ -1,0 +1,34 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. Cinemachine
+
+Unity Companion Cinemachine Code License 1.0
+
+Copyright � 2017 Unity Technologies ApS
+
+
+
+B. Sarpanch font
+
+Copyright (c) 2014, Indian Type Foundry (info@indiantypefoundry.com).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+
+C. Web-GL Noise
+
+copyright notice
+
+Copyright (C) 2011 by Ashima Arts (Simplex noise)
+Copyright (C) 2011-2016 by Stefan Gustavson (Classic noise and others)
+
+
+
+D. Skybox_HDR
+
+CC0 1.0 Universal (CC0 1.0)  Public Domain Dedication 
+This is a human-readable summary of the Legal Code (read the full text). 
+Disclaimer 

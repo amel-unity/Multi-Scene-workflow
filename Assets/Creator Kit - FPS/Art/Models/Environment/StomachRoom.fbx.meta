@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 2f61df2460680474caed9ba40e544b29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Can
+    100002: Fish
+    100004: Ring
+    100006: Stomach_Door1
+    100008: Stomach_Door2
+    100010: Stomach_Door3
+    100012: Stomach_DoorSnap1
+    100014: Stomach_DoorSnap2
+    100016: Stomach_DoorSnap3
+    100018: StomachFloor
+    100020: //RootNode
+    100022: StomachWalls
+    400000: Can
+    400002: Fish
+    400004: Ring
+    400006: Stomach_Door1
+    400008: Stomach_Door2
+    400010: Stomach_Door3
+    400012: Stomach_DoorSnap1
+    400014: Stomach_DoorSnap2
+    400016: Stomach_DoorSnap3
+    400018: StomachFloor
+    400020: //RootNode
+    400022: StomachWalls
+    2100000: none
+    2300000: Can
+    2300002: Fish
+    2300004: Ring
+    2300006: Stomach_Door1
+    2300008: Stomach_Door2
+    2300010: Stomach_Door3
+    2300012: Stomach_DoorSnap1
+    2300014: Stomach_DoorSnap2
+    2300016: Stomach_DoorSnap3
+    2300018: StomachFloor
+    2300020: StomachWalls
+    3300000: Can
+    3300002: Fish
+    3300004: Ring
+    3300006: Stomach_Door1
+    3300008: Stomach_Door2
+    3300010: Stomach_Door3
+    3300012: Stomach_DoorSnap1
+    3300014: Stomach_DoorSnap2
+    3300016: Stomach_DoorSnap3
+    3300018: StomachFloor
+    3300020: StomachWalls
+    4300000: Stomach_DoorSnap3
+    4300002: Stomach_Door3
+    4300004: Stomach_DoorSnap2
+    4300006: Stomach_Door2
+    4300008: Stomach_DoorSnap1
+    4300010: Stomach_Door1
+    4300012: StomachFloor
+    4300014: StomachWalls
+    4300016: Fish
+    4300018: Can
+    4300020: Ring
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: none
+    second: {fileID: 2100000, guid: 468f07c9a00f5ba41ba95b9cdece258c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

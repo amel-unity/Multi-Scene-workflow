@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 6da17b6fc3392da4e825d247643b1afe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArmsMesh
+    100004: ArmsRig
+    100006: Body
+    100008: LeftArm
+    100010: LeftArmTwist
+    100012: LeftHand
+    100014: LeftMiddle1
+    100016: LeftMiddle2
+    100018: LeftMiddle3
+    100020: LeftMiddleEND
+    100022: LeftPinky1
+    100024: LeftPinky2
+    100026: LeftPinky3
+    100028: LeftPinkyEND
+    100030: LeftRing1
+    100032: LeftRing2
+    100034: LeftRing3
+    100036: LeftRingEND
+    100038: LeftShoulder
+    100040: LeftThumb1
+    100042: LeftThumb2
+    100044: LeftThumb2 1
+    100046: LeftThumb3
+    100048: LeftThumb3 1
+    100050: LeftThumb4
+    100052: LeftThumbEND
+    100054: LeftThumbEND 1
+    100056: LeftUppperArm
+    100058: RightArm
+    100060: RightArmTwist
+    100062: RightHand
+    100064: RightMiddle1
+    100066: RightMiddle2
+    100068: RightMiddle3
+    100070: RightMiddleEND
+    100072: RightPinky1
+    100074: RightPinky2
+    100076: RightPinky3
+    100078: RightPinkyEND
+    100080: RightRing1
+    100082: RightRing2
+    100084: RightRing3
+    100086: RightRingEND
+    100088: RightShoulder
+    100090: RightThumb1
+    100092: RightThumb2
+    100094: RightThumb2 1
+    100096: RightThumb3
+    100098: RightThumb3 1
+    100100: RightThumb4
+    100102: RightThumbEND
+    100104: RightThumbEND 1
+    100106: RightUppperArm
+    100108: Root
+    400000: //RootNode
+    400002: ArmsMesh
+    400004: ArmsRig
+    400006: Body
+    400008: LeftArm
+    400010: LeftArmTwist
+    400012: LeftHand
+    400014: LeftMiddle1
+    400016: LeftMiddle2
+    400018: LeftMiddle3
+    400020: LeftMiddleEND
+    400022: LeftPinky1
+    400024: LeftPinky2
+    400026: LeftPinky3
+    400028: LeftPinkyEND
+    400030: LeftRing1
+    400032: LeftRing2
+    400034: LeftRing3
+    400036: LeftRingEND
+    400038: LeftShoulder
+    400040: LeftThumb1
+    400042: LeftThumb2
+    400044: LeftThumb2 1
+    400046: LeftThumb3
+    400048: LeftThumb3 1
+    400050: LeftThumb4
+    400052: LeftThumbEND
+    400054: LeftThumbEND 1
+    400056: LeftUppperArm
+    400058: RightArm
+    400060: RightArmTwist
+    400062: RightHand
+    400064: RightMiddle1
+    400066: RightMiddle2
+    400068: RightMiddle3
+    400070: RightMiddleEND
+    400072: RightPinky1
+    400074: RightPinky2
+    400076: RightPinky3
+    400078: RightPinkyEND
+    400080: RightRing1
+    400082: RightRing2
+    400084: RightRing3
+    400086: RightRingEND
+    400088: RightShoulder
+    400090: RightThumb1
+    400092: RightThumb2
+    400094: RightThumb2 1
+    400096: RightThumb3
+    400098: RightThumb3 1
+    400100: RightThumb4
+    400102: RightThumbEND
+    400104: RightThumbEND 1
+    400106: RightUppperArm
+    400108: Root
+    2100000: 13 - Default
+    2100002: Arms
+    4300000: ArmsMesh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: ArmsMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: cc3bd57a0a1412e4589da15b371cdaf0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

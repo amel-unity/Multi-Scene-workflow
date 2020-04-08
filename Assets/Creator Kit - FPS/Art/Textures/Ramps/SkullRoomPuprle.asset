@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0810e87d9b9c44009e7af003b7a89b4, type: 3}
+  m_Name: SkullRoomPuprle
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.05405111, b: 0.764151, a: 1}
+    key1: {r: 0.63529414, g: 0.035294097, b: 0.62099844, a: 1}
+    key2: {r: 0.40922037, g: 0.5937578, b: 0.7169812, a: 0.1764706}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 193
+    ctime1: 20624
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 21395
+    atime2: 26214
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 3
+  width: 64
+  texture: {fileID: 28014604174422466}
+--- !u!28 &28014604174422466
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkullRoomBlue
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 4
+  m_CompleteImageSize: 1404
+  m_TextureFormat: 5
+  m_MipCount: 7
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 1404
+  _typelessdata: ff000ec3ff070ec1ff0f0dc0ff170dbeff1f0dbcff270dbaff2f0cb8ff370cb6ff3f0cb5ff480cb3ff500bb1ff580bafff600badff680babff700aaaff780aa8ff800aa6ff880aa4ff910aa2ff9909a0ffa1099ffaa10c9fcea00f9fa19e12a0749d16a1489c19a12d9a1ca22d991fa22d9823a32d9626a32d9529a42d942ca42d9230a52d9133a62d9036a62d8e39a72d8d3ca72d8c40a82d8b43a82d8946a92d8849a92d874daa2d8550ab2d8453ab2d8356ac2d815aac2d805dad2d7f60ad2d7d63ae2d7c67ae2d7b6aaf2d796db02d7870b02d7774b12d7577b12d747ab22d737db22d7281b32d7084b32d6f87b42d6e8ab52d6c8eb52d6b91b62d6a94b6ff000ec3ff070ec1ff0f0dc0ff170dbeff1f0dbcff270dbaff2f0cb8ff370cb6ff3f0cb5ff480cb3ff500bb1ff580bafff600badff680babff700aaaff780aa8ff800aa6ff880aa4ff910aa2ff9909a0ffa1099ffaa10c9fcea00f9fa19e12a0749d16a1489c19a12d9a1ca22d991fa22d9823a32d9626a32d9529a42d942ca42d9230a52d9133a62d9036a62d8e39a72d8d3ca72d8c40a82d8b43a82d8946a92d8849a92d874daa2d8550ab2d8453ab2d8356ac2d815aac2d805dad2d7f60ad2d7d63ae2d7c67ae2d7b6aaf2d796db02d7870b02d7774b12d7577b12d747ab22d737db22d7281b32d7084b32d6f87b42d6e8ab52d6c8eb52d6b91b62d6a94b6ff000ec3ff070ec1ff0f0dc0ff170dbeff1f0dbcff270dbaff2f0cb8ff370cb6ff3f0cb5ff480cb3ff500bb1ff580bafff600badff680babff700aaaff780aa8ff800aa6ff880aa4ff910aa2ff9909a0ffa1099ffaa10c9fcea00f9fa19e12a0749d16a1489c19a12d9a1ca22d991fa22d9823a32d9626a32d9529a42d942ca42d9230a52d9133a62d9036a62d8e39a72d8d3ca72d8c40a82d8b43a82d8946a92d8849a92d874daa2d8550ab2d8453ab2d8356ac2d815aac2d805dad2d7f60ad2d7d63ae2d7c67ae2d7b6aaf2d796db02d7870b02d7774b12d7577b12d747ab22d737db22d7281b32d7084b32d6f87b42d6e8ab52d6c8eb52d6b91b62d6a94b6ff000ec3ff070ec1ff0f0dc0ff170dbeff1f0dbcff270dbaff2f0cb8ff370cb6ff3f0cb5ff480cb3ff500bb1ff580bafff600badff680babff700aaaff780aa8ff800aa6ff880aa4ff910aa2ff9909a0ffa1099ffaa10c9fcea00f9fa19e12a0749d16a1489c19a12d9a1ca22d991fa22d9823a32d9626a32d9529a42d942ca42d9230a52d9133a62d9036a62d8e39a72d8d3ca72d8c40a82d8b43a82d8946a92d8849a92d874daa2d8550ab2d8453ab2d8356ac2d815aac2d805dad2d7f60ad2d7d63ae2d7c67ae2d7b6aaf2d796db02d7870b02d7774b12d7577b12d747ab22d737db22d7281b32d7084b32d6f87b42d6e8ab52d6c8eb52d6b91b62d6a94b6ff030ec2ff130dbfff230dbbff330cb7ff430cb4ff540bb0ff640bacff740aa9ff840aa5ff9509a1fca10a9fb79f109f5e9c17a12d991da22d9724a32d942aa42d9131a52d8f37a62d8c3ea72d8a44a82d874ba92d8451ab2d8258ac2d7f5ead2d7c65ae2d7a6baf2d7772b02d7478b12d727fb22d6f85b32d6d8cb52d6a92b6ff030ec2ff130dbfff230dbbff330cb7ff430cb4ff540bb0ff640bacff740aa9ff840aa5ff9509a1fca10a9fb79f109f5e9c17a12d991da22d9724a32d942aa42d9131a52d8f37a62d8c3ea72d8a44a82d874ba92d8451ab2d8258ac2d7f5ead2d7c65ae2d7a6baf2d7772b02d7478b12d727fb22d6f85b32d6d8cb52d6a92b6ff0b0dc0ff2b0cb9ff4b0bb2ff6c0aaaff8c09a3d9a00d9f459a1aa12d9527a32d9034a52d8b41a72d854eaa2d805bac2d7b68ae2d7575b02d7082b22d6b8fb5ff1b0cbcff5b0aaeec960ba1399720a22d8d3aa62d8254ab2d786eaf2d6d88b3ff3b0bb5929615a12d8747a82d727bb1c86810ab2d7c61ac7a7238ab
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 

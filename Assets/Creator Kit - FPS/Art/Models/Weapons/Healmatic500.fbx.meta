@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 0cf6f9b9d11e99b418e19719c03665f2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AmmoCounter
+    100002: BarrelFront
+    100004: BarrelMain
+    100006: Grip
+    100008: //RootNode
+    100010: Liquid
+    100012: Magazine
+    100014: Muzzle
+    100016: Slide
+    100018: Trigger
+    400000: AmmoCounter
+    400002: BarrelFront
+    400004: BarrelMain
+    400006: Grip
+    400008: //RootNode
+    400010: Liquid
+    400012: Magazine
+    400014: Muzzle
+    400016: Slide
+    400018: Trigger
+    2100000: Pistol
+    2100002: Glass
+    2100004: Liquid1
+    2100006: Healmatic500
+    2300000: AmmoCounter
+    2300002: BarrelFront
+    2300004: BarrelMain
+    2300006: Grip
+    2300008: Liquid
+    2300010: Magazine
+    2300012: Muzzle
+    2300014: Slide
+    2300016: Trigger
+    3300000: AmmoCounter
+    3300002: BarrelFront
+    3300004: BarrelMain
+    3300006: Grip
+    3300008: Liquid
+    3300010: Magazine
+    3300012: Muzzle
+    3300014: Slide
+    3300016: Trigger
+    4300000: Muzzle
+    4300002: Slide
+    4300004: BarrelMain
+    4300006: AmmoCounter
+    4300008: Trigger
+    4300010: BarrelFront
+    4300012: Grip
+    4300014: Magazine
+    4300016: Liquid
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 2e9fd5ea092ff344eb99ba7a6786505b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Healmatic500
+    second: {fileID: 2100000, guid: 6f15057edf420d34782dd96c2e7ab81a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Liquid1
+    second: {fileID: 2100000, guid: d1d396926b692604ca81c7fb1cf90992, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0810e87d9b9c44009e7af003b7a89b4, type: 3}
+  m_Name: SkullRoomBlue 1
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.47410426, b: 0.7647059, a: 0}
+    key1: {r: 0.25943398, g: 0.84460014, b: 1, a: 1}
+    key2: {r: 0.40922037, g: 0.5937578, b: 0.7169812, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 20624
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 27949
+    atime2: 53970
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 4
+  width: 64
+  texture: {fileID: 28014604174422466}
+--- !u!28 &28014604174422466
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SkullRoomBlue
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 4
+  m_CompleteImageSize: 1404
+  m_TextureFormat: 5
+  m_MipCount: 7
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 1404
+  _typelessdata: 000079c309037ec6130782c91c0a87cc250d8ccf2f1090d2381495d541179ad84b1a9edb541ea3de5d21a8e16724ace47027b1e7792bb6ea832ebbed8c31bff09535c4f39f38c9f6a83bcdf9b23ed2fcbb42d7ffc443d6fece44d5fcd745d3fae046d2f9ea46d0f7f347cff5fc48cdf4ff49ccf2ff4acaf0ff4bc9efff4cc8edff4cc6ebff4dc5eaff4ec3e8ff4fc2e7ff50c0e5ff51bfe3ff52bde2ff53bce0ff53badeff54b9ddff55b7dbff56b6d9ff57b5d8ff58b3d6ff59b2d4ff5ab0d3ff5aafd1ff5badd0ff5cacceff5daaccff5ea9cbf85fa7c9e260a6c7cb61a5c6b561a3c49e62a2c28763a0c171649fbf5a659dbd44669cbc2d679aba176799b8000079c309037ec6130782c91c0a87cc250d8ccf2f1090d2381495d541179ad84b1a9edb541ea3de5d21a8e16724ace47027b1e7792bb6ea832ebbed8c31bff09535c4f39f38c9f6a83bcdf9b23ed2fcbb42d7ffc443d6fece44d5fcd745d3fae046d2f9ea46d0f7f347cff5fc48cdf4ff49ccf2ff4acaf0ff4bc9efff4cc8edff4cc6ebff4dc5eaff4ec3e8ff4fc2e7ff50c0e5ff51bfe3ff52bde2ff53bce0ff53badeff54b9ddff55b7dbff56b6d9ff57b5d8ff58b3d6ff59b2d4ff5ab0d3ff5aafd1ff5badd0ff5cacceff5daaccff5ea9cbf85fa7c9e260a6c7cb61a5c6b561a3c49e62a2c28763a0c171649fbf5a659dbd44669cbc2d679aba176799b8000079c309037ec6130782c91c0a87cc250d8ccf2f1090d2381495d541179ad84b1a9edb541ea3de5d21a8e16724ace47027b1e7792bb6ea832ebbed8c31bff09535c4f39f38c9f6a83bcdf9b23ed2fcbb42d7ffc443d6fece44d5fcd745d3fae046d2f9ea46d0f7f347cff5fc48cdf4ff49ccf2ff4acaf0ff4bc9efff4cc8edff4cc6ebff4dc5eaff4ec3e8ff4fc2e7ff50c0e5ff51bfe3ff52bde2ff53bce0ff53badeff54b9ddff55b7dbff56b6d9ff57b5d8ff58b3d6ff59b2d4ff5ab0d3ff5aafd1ff5badd0ff5cacceff5daaccff5ea9cbf85fa7c9e260a6c7cb61a5c6b561a3c49e62a2c28763a0c171649fbf5a659dbd44669cbc2d679aba176799b8000079c309037ec6130782c91c0a87cc250d8ccf2f1090d2381495d541179ad84b1a9edb541ea3de5d21a8e16724ace47027b1e7792bb6ea832ebbed8c31bff09535c4f39f38c9f6a83bcdf9b23ed2fcbb42d7ffc443d6fece44d5fcd745d3fae046d2f9ea46d0f7f347cff5fc48cdf4ff49ccf2ff4acaf0ff4bc9efff4cc8edff4cc6ebff4dc5eaff4ec3e8ff4fc2e7ff50c0e5ff51bfe3ff52bde2ff53bce0ff53badeff54b9ddff55b7dbff56b6d9ff57b5d8ff58b3d6ff59b2d4ff5ab0d3ff5aafd1ff5badd0ff5cacceff5daaccff5ea9cbf85fa7c9e260a6c7cb61a5c6b561a3c49e62a2c28763a0c171649fbf5a659dbd44669cbc2d679aba176799b804017bc4170884ca2a0e8ed03c1597d64f1ca0dc6222aae27429b3e8872fbdee9a36c6f4ad3ccffabf42d6fed244d4fbe546d1f8f747cef4ff49cbf1ff4bc8eeff4cc5eaff4ec2e7ff50bfe4ff52bce1ff53b9ddff55b6daff57b4d7ff59b1d3ff5aaed0ff5cabcdfb5ea8cad660a5c6a961a2c37c639fc04f659cbc226799b904017bc4170884ca2a0e8ed03c1597d64f1ca0dc6222aae27429b3e8872fbdee9a36c6f4ad3ccffabf42d6fed244d4fbe546d1f8f747cef4ff49cbf1ff4bc8eeff4cc5eaff4ec2e7ff50bfe4ff52bce1ff53b9ddff55b6daff57b4d7ff59b1d3ff5aaed0ff5cabcdfb5ea8cad660a5c6a961a2c37c639fc04f659cbc226799b90d047fc7331192d3581fa5df7d2cb8eba339caf7c843d5fcee46cff6ff4ac9efff4dc3e8ff51bde2ff54b7dbff58b2d5ff5baccee85fa6c89262a0c138669aba200a88cd6a25aee5b53ecff9f648ccf2ff4fc0e5ff56b4d8f35da9cb65649dbd45179bd9d543cdf5ff52badeac60a3c48d2db4e7d559aed1b143b1dc
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 

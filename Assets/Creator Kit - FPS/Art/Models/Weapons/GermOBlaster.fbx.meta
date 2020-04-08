@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 86fc001a05862c84693b67471a4668be
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BackHookShort
+    100002: BarrelCaps
+    100004: BarrelEnd
+    100006: BarrelHousing
+    100008: BarrelMid
+    100010: BarrelSights
+    100012: BarrelTop
+    100014: BarrelTopTube
+    100016: CableCaps
+    100018: Cables
+    100020: Counter
+    100022: //RootNode
+    100024: Grip
+    100026: Hoops
+    100028: Magazine
+    100030: MagazinePort
+    100032: MagHolder
+    100034: Receiver
+    100036: ReceiverLower
+    100038: SlantyTube
+    100040: Trigger
+    100042: TriggerGuard
+    400000: BackHookShort
+    400002: BarrelCaps
+    400004: BarrelEnd
+    400006: BarrelHousing
+    400008: BarrelMid
+    400010: BarrelSights
+    400012: BarrelTop
+    400014: BarrelTopTube
+    400016: CableCaps
+    400018: Cables
+    400020: Counter
+    400022: //RootNode
+    400024: Grip
+    400026: Hoops
+    400028: Magazine
+    400030: MagazinePort
+    400032: MagHolder
+    400034: Receiver
+    400036: ReceiverLower
+    400038: SlantyTube
+    400040: Trigger
+    400042: TriggerGuard
+    2100000: GunRiffle
+    2100002: GermOBlaster
+    2300000: BackHookShort
+    2300002: BarrelCaps
+    2300004: BarrelEnd
+    2300006: BarrelHousing
+    2300008: BarrelMid
+    2300010: BarrelSights
+    2300012: BarrelTop
+    2300014: BarrelTopTube
+    2300016: CableCaps
+    2300018: Cables
+    2300020: Counter
+    2300022: Grip
+    2300024: Hoops
+    2300026: Magazine
+    2300028: MagazinePort
+    2300030: MagHolder
+    2300032: Receiver
+    2300034: ReceiverLower
+    2300036: SlantyTube
+    2300038: Trigger
+    2300040: TriggerGuard
+    3300000: BackHookShort
+    3300002: BarrelCaps
+    3300004: BarrelEnd
+    3300006: BarrelHousing
+    3300008: BarrelMid
+    3300010: BarrelSights
+    3300012: BarrelTop
+    3300014: BarrelTopTube
+    3300016: CableCaps
+    3300018: Cables
+    3300020: Counter
+    3300022: Grip
+    3300024: Hoops
+    3300026: Magazine
+    3300028: MagazinePort
+    3300030: MagHolder
+    3300032: Receiver
+    3300034: ReceiverLower
+    3300036: SlantyTube
+    3300038: Trigger
+    3300040: TriggerGuard
+    4300000: BarrelMid
+    4300002: SlantyTube
+    4300004: BackHookShort
+    4300006: Receiver
+    4300008: ReceiverLower
+    4300010: Trigger
+    4300012: Grip
+    4300014: TriggerGuard
+    4300016: Cables
+    4300018: Hoops
+    4300020: Counter
+    4300022: BarrelEnd
+    4300024: BarrelSights
+    4300026: BarrelHousing
+    4300028: BarrelTopTube
+    4300030: BarrelCaps
+    4300032: BarrelTop
+    4300034: CableCaps
+    4300036: MagHolder
+    4300038: Magazine
+    4300040: MagazinePort
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GermOBlaster
+    second: {fileID: 2100000, guid: f9cc11d7c3cc75847b26ab2a841311d4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0810e87d9b9c44009e7af003b7a89b4, type: 3}
+  m_Name: DisplacementRamp
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.9056604, g: 0.9013884, b: 0.9013884, a: 1}
+    key2: {r: 0.9056604, g: 0.9013884, b: 0.9013884, a: 0}
+    key3: {r: 0.9056604, g: 0.9013884, b: 0.9013884, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 2120
+    ctime1: 65535
+    ctime2: 54741
+    ctime3: 54741
+    ctime4: 65150
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  width: 64
+  texture: {fileID: 28006490866237874}
+--- !u!28 &28006490866237874
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DisplacementRamp
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 4
+  m_CompleteImageSize: 1404
+  m_TextureFormat: 5
+  m_MipCount: 7
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 1404
+  _typelessdata: ff000000ff000000ff000000ff030303ff070707ff0b0b0bff0f0f0fff121212ff161616ff1a1a1aff1e1d1dff212121ff252525ff292929ff2c2c2cff303030ff343434ff383737ff3b3b3bff3f3f3fff434343ff474646ff4a4a4aff4e4e4eff525151ff565555ff595959ff5d5d5dff616060ff646464ff686868ff6c6b6bff706f6fff737373ff777777ff7b7a7aff7f7e7eff828282ff868585ff8a8989ff8d8d8dff919090ff959494ff999898ff9c9c9cffa09f9fffa4a3a3ffa8a7a7ffabaaaaffafaeaeffb3b2b2ffb6b6b6ffbab9b9ffbebdbdffc2c1c1ffc5c4c4ffc9c8c8ffcdccccffd1d0d0ffd4d3d3ffd8d7d7ffdcdbdbffdfdedeffe3e2e2ff000000ff000000ff000000ff030303ff070707ff0b0b0bff0f0f0fff121212ff161616ff1a1a1aff1e1d1dff212121ff252525ff292929ff2c2c2cff303030ff343434ff383737ff3b3b3bff3f3f3fff434343ff474646ff4a4a4aff4e4e4eff525151ff565555ff595959ff5d5d5dff616060ff646464ff686868ff6c6b6bff706f6fff737373ff777777ff7b7a7aff7f7e7eff828282ff868585ff8a8989ff8d8d8dff919090ff959494ff999898ff9c9c9cffa09f9fffa4a3a3ffa8a7a7ffabaaaaffafaeaeffb3b2b2ffb6b6b6ffbab9b9ffbebdbdffc2c1c1ffc5c4c4ffc9c8c8ffcdccccffd1d0d0ffd4d3d3ffd8d7d7ffdcdbdbffdfdedeffe3e2e2ff000000ff000000ff000000ff030303ff070707ff0b0b0bff0f0f0fff121212ff161616ff1a1a1aff1e1d1dff212121ff252525ff292929ff2c2c2cff303030ff343434ff383737ff3b3b3bff3f3f3fff434343ff474646ff4a4a4aff4e4e4eff525151ff565555ff595959ff5d5d5dff616060ff646464ff686868ff6c6b6bff706f6fff737373ff777777ff7b7a7aff7f7e7eff828282ff868585ff8a8989ff8d8d8dff919090ff959494ff999898ff9c9c9cffa09f9fffa4a3a3ffa8a7a7ffabaaaaffafaeaeffb3b2b2ffb6b6b6ffbab9b9ffbebdbdffc2c1c1ffc5c4c4ffc9c8c8ffcdccccffd1d0d0ffd4d3d3ffd8d7d7ffdcdbdbffdfdedeffe3e2e2ff000000ff000000ff000000ff030303ff070707ff0b0b0bff0f0f0fff121212ff161616ff1a1a1aff1e1d1dff212121ff252525ff292929ff2c2c2cff303030ff343434ff383737ff3b3b3bff3f3f3fff434343ff474646ff4a4a4aff4e4e4eff525151ff565555ff595959ff5d5d5dff616060ff646464ff686868ff6c6b6bff706f6fff737373ff777777ff7b7a7aff7f7e7eff828282ff868585ff8a8989ff8d8d8dff919090ff959494ff999898ff9c9c9cffa09f9fffa4a3a3ffa8a7a7ffabaaaaffafaeaeffb3b2b2ffb6b6b6ffbab9b9ffbebdbdffc2c1c1ffc5c4c4ffc9c8c8ffcdccccffd1d0d0ffd4d3d3ffd8d7d7ffdcdbdbffdfdedeffe3e2e2ff000000ff010101ff090909ff101010ff181818ff1f1f1fff272727ff2e2e2eff363535ff3d3d3dff454444ff4c4c4cff545353ff5b5b5bff626262ff6a6969ff717171ff797878ff808080ff888787ff8f8e8eff979696ff9e9d9dffa6a5a5ffadacacffb4b4b4ffbcbbbbffc3c2c2ffcbcacaffd2d1d1ffdad9d9ffe1e0e0ff000000ff010101ff090909ff101010ff181818ff1f1f1fff272727ff2e2e2eff363535ff3d3d3dff454444ff4c4c4cff545353ff5b5b5bff626262ff6a6969ff717171ff797878ff808080ff888787ff8f8e8eff979696ff9e9d9dffa6a5a5ffadacacffb4b4b4ffbcbbbbffc3c2c2ffcbcacaffd2d1d1ffdad9d9ffe1e0e0ff000000ff0c0c0cff1b1b1bff2a2a2aff393939ff484848ff575757ff666565ff757474ff848383ff939292ffa2a1a1ffb0b0b0ffbfbebeffcecdcdffdddcdcff060606ff222222ff404040ff5e5e5eff7c7b7bff9a9999ffb7b7b7ffd5d4d4ff141414ff4f4f4fff8b8a8affc6c5c5ff313131ffa8a7a7ff6c6c6c
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 

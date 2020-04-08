@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GermOBlaster_Override
+  m_Controller: {fileID: 9100000, guid: 659a9017b97a1874b8730efcab9dfc39, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7ec2159ff41c4d347ae9b3be659fbd8f, type: 2}
+    m_OverrideClip: {fileID: 7400004, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: f4c2425b3a0a77d44b285898195bd701, type: 2}
+    m_OverrideClip: {fileID: 7400002, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 9c587e6e87c84304e9bc4cf8c4d56dc8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 2489022d41afae44e98d8d6c9ea9948a, type: 2}
+    m_OverrideClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: befa1c735916be54fba9c5524f97b7bb, type: 2}
+    m_OverrideClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}

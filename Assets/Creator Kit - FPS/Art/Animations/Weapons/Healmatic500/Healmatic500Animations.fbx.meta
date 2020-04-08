@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 48d0d593c4a87604d8229843efb1af29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArmsMEsh
+    100004: Body
+    100006: LeftArm
+    100008: LeftArmTwist
+    100010: LeftHand
+    100012: LeftMiddle1
+    100014: LeftMiddle2
+    100016: LeftMiddle3
+    100018: LeftMiddleEND
+    100020: LeftPinky1
+    100022: LeftPinky2
+    100024: LeftPinky3
+    100026: LeftPinkyEND
+    100028: LeftRing1
+    100030: LeftRing2
+    100032: LeftRing3
+    100034: LeftRingEND
+    100036: LeftShoulder
+    100038: LeftThumb1
+    100040: LeftThumb2
+    100042: LeftThumb2 1
+    100044: LeftThumb3
+    100046: LeftThumb3 1
+    100048: LeftThumb4
+    100050: LeftThumbEND
+    100052: LeftThumbEND 1
+    100054: LeftUppperArm
+    100056: RightArm
+    100058: RightArmTwist
+    100060: RightHand
+    100062: RightMiddle1
+    100064: RightMiddle2
+    100066: RightMiddle3
+    100068: RightMiddleEND
+    100070: RightPinky1
+    100072: RightPinky2
+    100074: RightPinky3
+    100076: RightPinkyEND
+    100078: RightRing1
+    100080: RightRing2
+    100082: RightRing3
+    100084: RightRingEND
+    100086: RightShoulder
+    100088: RightThumb1
+    100090: RightThumb2
+    100092: RightThumb2 1
+    100094: RightThumb3
+    100096: RightThumb3 1
+    100098: RightThumb4
+    100100: RightThumbEND
+    100102: RightThumbEND 1
+    100104: RightUppperArm
+    100106: Root
+    100108: GUNZ
+    100110: Pistol_Unrigged:AmmoCounter
+    100112: Pistol_Unrigged:BarrelFront
+    100114: Pistol_Unrigged:BarrelMain
+    100116: Pistol_Unrigged:Grip
+    100118: Pistol_Unrigged:Liquid
+    100120: Pistol_Unrigged:Magazine
+    100122: Pistol_Unrigged:Muzzle
+    100124: Pistol_Unrigged:Slide
+    100126: Pistol_Unrigged:Trigger
+    100128: null1
+    100130: AmmoCounter
+    100132: ArmsMesh
+    100134: ArmsRig
+    100136: BarrelFront
+    100138: BarrelMain
+    100140: Grip
+    100142: Healmatic500Rig
+    100144: Liquid
+    100146: Magazine
+    100148: Muzzle
+    100150: Slide
+    100152: Trigger
+    400000: //RootNode
+    400002: ArmsMEsh
+    400004: Body
+    400006: LeftArm
+    400008: LeftArmTwist
+    400010: LeftHand
+    400012: LeftMiddle1
+    400014: LeftMiddle2
+    400016: LeftMiddle3
+    400018: LeftMiddleEND
+    400020: LeftPinky1
+    400022: LeftPinky2
+    400024: LeftPinky3
+    400026: LeftPinkyEND
+    400028: LeftRing1
+    400030: LeftRing2
+    400032: LeftRing3
+    400034: LeftRingEND
+    400036: LeftShoulder
+    400038: LeftThumb1
+    400040: LeftThumb2
+    400042: LeftThumb2 1
+    400044: LeftThumb3
+    400046: LeftThumb3 1
+    400048: LeftThumb4
+    400050: LeftThumbEND
+    400052: LeftThumbEND 1
+    400054: LeftUppperArm
+    400056: RightArm
+    400058: RightArmTwist
+    400060: RightHand
+    400062: RightMiddle1
+    400064: RightMiddle2
+    400066: RightMiddle3
+    400068: RightMiddleEND
+    400070: RightPinky1
+    400072: RightPinky2
+    400074: RightPinky3
+    400076: RightPinkyEND
+    400078: RightRing1
+    400080: RightRing2
+    400082: RightRing3
+    400084: RightRingEND
+    400086: RightShoulder
+    400088: RightThumb1
+    400090: RightThumb2
+    400092: RightThumb2 1
+    400094: RightThumb3
+    400096: RightThumb3 1
+    400098: RightThumb4
+    400100: RightThumbEND
+    400102: RightThumbEND 1
+    400104: RightUppperArm
+    400106: Root
+    400108: GUNZ
+    400110: Pistol_Unrigged:AmmoCounter
+    400112: Pistol_Unrigged:BarrelFront
+    400114: Pistol_Unrigged:BarrelMain
+    400116: Pistol_Unrigged:Grip
+    400118: Pistol_Unrigged:Liquid
+    400120: Pistol_Unrigged:Magazine
+    400122: Pistol_Unrigged:Muzzle
+    400124: Pistol_Unrigged:Slide
+    400126: Pistol_Unrigged:Trigger
+    400128: null1
+    400130: AmmoCounter
+    400132: ArmsMesh
+    400134: ArmsRig
+    400136: BarrelFront
+    400138: BarrelMain
+    400140: Grip
+    400142: Healmatic500Rig
+    400144: Liquid
+    400146: Magazine
+    400148: Muzzle
+    400150: Slide
+    400152: Trigger
+    2100000: 13 - Default
+    2100002: Pistol_Unrigged_Pistol
+    2100004: Pistol_Unrigged_Glass
+    2100006: Pistol_Unrigged_Liquid
+    2100008: Healmatic500
+    2100010: Glass
+    2100012: Liquid1
+    2100014: Arms
+    2300000: Pistol_Unrigged:AmmoCounter
+    2300002: Pistol_Unrigged:BarrelFront
+    2300004: Pistol_Unrigged:BarrelMain
+    2300006: Pistol_Unrigged:Grip
+    2300008: Pistol_Unrigged:Liquid
+    2300010: Pistol_Unrigged:Magazine
+    2300012: Pistol_Unrigged:Muzzle
+    2300014: Pistol_Unrigged:Slide
+    2300016: Pistol_Unrigged:Trigger
+    2300018: AmmoCounter
+    2300020: BarrelFront
+    2300022: BarrelMain
+    2300024: Grip
+    2300026: Liquid
+    2300028: Magazine
+    2300030: Muzzle
+    2300032: Slide
+    2300034: Trigger
+    3300000: Pistol_Unrigged:AmmoCounter
+    3300002: Pistol_Unrigged:BarrelFront
+    3300004: Pistol_Unrigged:BarrelMain
+    3300006: Pistol_Unrigged:Grip
+    3300008: Pistol_Unrigged:Liquid
+    3300010: Pistol_Unrigged:Magazine
+    3300012: Pistol_Unrigged:Muzzle
+    3300014: Pistol_Unrigged:Slide
+    3300016: Pistol_Unrigged:Trigger
+    3300018: AmmoCounter
+    3300020: BarrelFront
+    3300022: BarrelMain
+    3300024: Grip
+    3300026: Liquid
+    3300028: Magazine
+    3300030: Muzzle
+    3300032: Slide
+    3300034: Trigger
+    4300000: ArmsMEsh
+    4300002: Pistol_Unrigged:Muzzle
+    4300004: Pistol_Unrigged:Slide
+    4300006: Pistol_Unrigged:BarrelMain
+    4300008: Pistol_Unrigged:AmmoCounter
+    4300010: Pistol_Unrigged:Trigger
+    4300012: Pistol_Unrigged:BarrelFront
+    4300014: Pistol_Unrigged:Grip
+    4300016: Pistol_Unrigged:Magazine
+    4300018: Pistol_Unrigged:Liquid
+    4300020: ArmsMesh
+    4300022: Muzzle
+    4300024: Slide
+    4300026: BarrelMain
+    4300028: AmmoCounter
+    4300030: Trigger
+    4300032: BarrelFront
+    4300034: Grip
+    4300036: Magazine
+    4300038: Liquid
+    7400000: Healmatic500_Idle
+    7400002: Healmatic500_Shoot
+    7400004: Healmatic500_Reload
+    7400006: Healmatic500_TakeOut
+    7400008: Healmatic500_Walk
+    9500000: //RootNode
+    13700000: ArmsMEsh
+    13700002: ArmsMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: cc3bd57a0a1412e4589da15b371cdaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: cc3bd57a0a1412e4589da15b371cdaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 2e9fd5ea092ff344eb99ba7a6786505b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Healmatic500
+    second: {fileID: 2100000, guid: 6f15057edf420d34782dd96c2e7ab81a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Liquid1
+    second: {fileID: 2100000, guid: d1d396926b692604ca81c7fb1cf90992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol_Unrigged_Glass
+    second: {fileID: 2100000, guid: 2e9fd5ea092ff344eb99ba7a6786505b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol_Unrigged_Liquid
+    second: {fileID: 2100000, guid: d1d396926b692604ca81c7fb1cf90992, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistol_Unrigged_Pistol
+    second: {fileID: 2100000, guid: 6f15057edf420d34782dd96c2e7ab81a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Healmatic500_Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Healmatic500_Shoot
+      takeName: Take 001
+      firstFrame: 106
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Healmatic500_Reload
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 255
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Healmatic500_TakeOut
+      takeName: Take 001
+      firstFrame: 262
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Healmatic500_Walk
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.3143711
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.77694607
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 52b7876553824d9449233858a2efa6ca,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

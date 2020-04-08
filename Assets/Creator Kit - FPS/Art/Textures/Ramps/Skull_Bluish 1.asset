@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0810e87d9b9c44009e7af003b7a89b4, type: 3}
+  m_Name: Skull_Bluish 1
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.36065817, g: 0.3428711, b: 0.6320754, a: 0}
+    key1: {r: 0.21226418, g: 0.44813997, b: 1, a: 1}
+    key2: {r: 0.15566039, g: 0.98379624, b: 1, a: 1}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 13878
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 13493
+    atime2: 16577
+    atime3: 65535
+    atime4: 65342
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 4
+  width: 64
+  texture: {fileID: 28392345947452060}
+--- !u!28 &28392345947452060
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Gradient Texture
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 4
+  m_CompleteImageSize: 1404
+  m_TextureFormat: 5
+  m_MipCount: 7
+  m_IsReadable: 1
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  image data: 1404
+  _typelessdata: 005c57a1135959a827565baf3a545db64d515fbd614e61c4744b63cb874865d29b4667d9ae4369dfc2406be6d53d6dede83a6ff4fc3871fbff3673ffff3676ffff3579fffb357cfff5357efff03581ffeb3484ffe53486ffe03489ffdb338cffd5338fffd03391ffcb3394ffc53297ffc03299ffbb329cffb5319fffb031a2ffab31a4ffa531a7ffa030aaff9b30acff9530afff902fb2ff8b2fb4ff852fb7ff802fbaff7b2ebdff752ebfff702ec2ff6b2dc5ff652dc7ff602dcaff5b2dcdff552cd0ff502cd2ff4b2cd5ff452bd8ff402bdaff3b2bddff352be0ff302ae2ff2b2ae5ff252ae8ff2029ebff1b29edff1529f0ff1029f3ff0b28f5ff0528f8ff005c57a1135959a827565baf3a545db64d515fbd614e61c4744b63cb874865d29b4667d9ae4369dfc2406be6d53d6dede83a6ff4fc3871fbff3673ffff3676ffff3579fffb357cfff5357efff03581ffeb3484ffe53486ffe03489ffdb338cffd5338fffd03391ffcb3394ffc53297ffc03299ffbb329cffb5319fffb031a2ffab31a4ffa531a7ffa030aaff9b30acff9530afff902fb2ff8b2fb4ff852fb7ff802fbaff7b2ebdff752ebfff702ec2ff6b2dc5ff652dc7ff602dcaff5b2dcdff552cd0ff502cd2ff4b2cd5ff452bd8ff402bdaff3b2bddff352be0ff302ae2ff2b2ae5ff252ae8ff2029ebff1b29edff1529f0ff1029f3ff0b28f5ff0528f8ff005c57a1135959a827565baf3a545db64d515fbd614e61c4744b63cb874865d29b4667d9ae4369dfc2406be6d53d6dede83a6ff4fc3871fbff3673ffff3676ffff3579fffb357cfff5357efff03581ffeb3484ffe53486ffe03489ffdb338cffd5338fffd03391ffcb3394ffc53297ffc03299ffbb329cffb5319fffb031a2ffab31a4ffa531a7ffa030aaff9b30acff9530afff902fb2ff8b2fb4ff852fb7ff802fbaff7b2ebdff752ebfff702ec2ff6b2dc5ff652dc7ff602dcaff5b2dcdff552cd0ff502cd2ff4b2cd5ff452bd8ff402bdaff3b2bddff352be0ff302ae2ff2b2ae5ff252ae8ff2029ebff1b29edff1529f0ff1029f3ff0b28f5ff0528f8ff005c57a1135959a827565baf3a545db64d515fbd614e61c4744b63cb874865d29b4667d9ae4369dfc2406be6d53d6dede83a6ff4fc3871fbff3673ffff3676ffff3579fffb357cfff5357efff03581ffeb3484ffe53486ffe03489ffdb338cffd5338fffd03391ffcb3394ffc53297ffc03299ffbb329cffb5319fffb031a2ffab31a4ffa531a7ffa030aaff9b30acff9530afff902fb2ff8b2fb4ff852fb7ff802fbaff7b2ebdff752ebfff702ec2ff6b2dc5ff652dc7ff602dcaff5b2dcdff552cd0ff502cd2ff4b2cd5ff452bd8ff402bdaff3b2bddff352be0ff302ae2ff2b2ae5ff252ae8ff2029ebff1b29edff1529f0ff1029f3ff0b28f5ff0528f8ff095a58a430555cb2574f60c07d4964cea44468dccb3e6ce9f23970f7ff3674fffd357afff2357fffe83485ffdd338affd23390ffc83295ffbd329affb231a0ffa831a5ff9d30abff922fb0ff882fb5ff7d2ebbff722ec0ff682dc6ff5d2dcbff522cd1ff482bd6ff3d2bdbff322ae1ff282ae6ff1d29ecff1229f1ff0828f6ff095a58a430555cb2574f60c07d4964cea44468dccb3e6ce9f23970f7ff3674fffd357afff2357fffe83485ffdd338affd23390ffc83295ffbd329affb231a0ffa831a5ff9d30abff922fb0ff882fb5ff7d2ebbff722ec0ff682dc6ff5d2dcbff522cd1ff482bd6ff3d2bdbff322ae1ff282ae6ff1d29ecff1229f1ff0828f6ff1c575aab6a4c62c7b7416ae2f83772fbf7357cffe23387ffcd3292ffb7319dffa230a8ff8d2fb2ff772ebdff622dc8ff4d2bd3ff372adeff2229e9ff0d28f3ff43515eb9d73c6eeeec3481ffc23197ff972fadff6c2dc2ff422ad8ff1728eeff8d4666d3d7328cff812eb7ff2c29e3ffb23c79e9562bcdff8433a3f4
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 

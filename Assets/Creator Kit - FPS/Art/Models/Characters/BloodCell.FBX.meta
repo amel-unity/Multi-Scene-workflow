@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 8226672356b74174cbe023b9736222f5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BloodCell_Body
+    100004: BloodCell_Eye
+    100006: BloodCell_Eye 1
+    100008: BloodCell
+    100010: Body
+    100012: BodyCenter
+    100014: BodyLeft
+    100016: BodyRight
+    100018: LeftEye
+    100020: LeftEyeLidDown
+    100022: LeftEyelidUp
+    100024: LeftHand
+    100026: LeftHandEND
+    100028: Mouth
+    100030: RightEye
+    100032: RightEyelidDown
+    100034: RightEyeLidUp
+    100036: RightHand
+    100038: RightHandEND
+    100040: Root
+    400000: //RootNode
+    400002: BloodCell_Body
+    400004: BloodCell_Eye
+    400006: BloodCell_Eye 1
+    400008: BloodCell
+    400010: Body
+    400012: BodyCenter
+    400014: BodyLeft
+    400016: BodyRight
+    400018: LeftEye
+    400020: LeftEyeLidDown
+    400022: LeftEyelidUp
+    400024: LeftHand
+    400026: LeftHandEND
+    400028: Mouth
+    400030: RightEye
+    400032: RightEyelidDown
+    400034: RightEyeLidUp
+    400036: RightHand
+    400038: RightHandEND
+    400040: Root
+    2100000: 07 - Default
+    2100002: 02 - Default
+    2300000: BloodCell_Body
+    2300002: BloodCell_Eye
+    2300004: BloodCell_Eye 1
+    2300006: BloodCell
+    3300000: BloodCell_Body
+    3300002: BloodCell_Eye
+    3300004: BloodCell_Eye 1
+    3300006: BloodCell
+    4300000: BloodCell_Body
+    4300002: BloodCell_Eye
+    4300004: BloodCell_Eye
+    4300006: BloodCell
+    9500000: //RootNode
+    13700000: BloodCell
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: c4a9819ff4c59a74ca60bbbb70426d6f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

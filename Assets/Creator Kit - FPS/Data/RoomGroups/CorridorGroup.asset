@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880ce497bcca40d4888f2e28f1ef0400, type: 3}
+  m_Name: CorridorGroup
+  m_EditorClassIdentifier: 
+  levelPart:
+  - {fileID: 8600562402010501490, guid: 905396a8b049c0548828753382b185ff, type: 3}
+  - {fileID: 3759635406596314947, guid: b839185e8530797479d5b4df13785446, type: 3}
+  - {fileID: 5752958656259902145, guid: 0cd31afd7f54bbc4183a5847d566e3d6, type: 3}
+  - {fileID: 2854975671627387452, guid: 21a463888965eb14ea0abb606bdbca2b, type: 3}
+  - {fileID: 2928777270725361537, guid: 0ad9d83713f843f4a8daec984ea1f0e3, type: 3}

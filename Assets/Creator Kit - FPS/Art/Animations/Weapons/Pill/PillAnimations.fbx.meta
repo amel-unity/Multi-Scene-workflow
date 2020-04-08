@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 9c5a36cef55a3614a866b354444f08a5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmsMEsh
+    100002: Body
+    100004: //RootNode
+    100006: Grenade_Unrigged:PillGrenade
+    100008: group
+    100010: LeftArm
+    100012: LeftArmTwist
+    100014: LeftHand
+    100016: LeftMiddle1
+    100018: LeftMiddle2
+    100020: LeftMiddle3
+    100022: LeftMiddleEND
+    100024: LeftPinky1
+    100026: LeftPinky2
+    100028: LeftPinky3
+    100030: LeftPinkyEND
+    100032: LeftRing1
+    100034: LeftRing2
+    100036: LeftRing3
+    100038: LeftRingEND
+    100040: LeftShoulder
+    100042: LeftThumb1
+    100044: LeftThumb2
+    100046: LeftThumb2 1
+    100048: LeftThumb3
+    100050: LeftThumb3 1
+    100052: LeftThumb4
+    100054: LeftThumbEND
+    100056: LeftThumbEND 1
+    100058: LeftUppperArm
+    100060: null1
+    100062: RightArm
+    100064: RightArmTwist
+    100066: RightHand
+    100068: RightMiddle1
+    100070: RightMiddle2
+    100072: RightMiddle3
+    100074: RightMiddleEND
+    100076: RightPinky1
+    100078: RightPinky2
+    100080: RightPinky3
+    100082: RightPinkyEND
+    100084: RightRing1
+    100086: RightRing2
+    100088: RightRing3
+    100090: RightRingEND
+    100092: RightShoulder
+    100094: RightThumb1
+    100096: RightThumb2
+    100098: RightThumb2 1
+    100100: RightThumb3
+    100102: RightThumb3 1
+    100104: RightThumb4
+    100106: RightThumbEND
+    100108: RightThumbEND 1
+    100110: RightUppperArm
+    100112: Root
+    100114: ArmsMesh
+    100116: ArmsRig
+    100118: Pill
+    100120: PillRig
+    400000: ArmsMEsh
+    400002: Body
+    400004: //RootNode
+    400006: Grenade_Unrigged:PillGrenade
+    400008: group
+    400010: LeftArm
+    400012: LeftArmTwist
+    400014: LeftHand
+    400016: LeftMiddle1
+    400018: LeftMiddle2
+    400020: LeftMiddle3
+    400022: LeftMiddleEND
+    400024: LeftPinky1
+    400026: LeftPinky2
+    400028: LeftPinky3
+    400030: LeftPinkyEND
+    400032: LeftRing1
+    400034: LeftRing2
+    400036: LeftRing3
+    400038: LeftRingEND
+    400040: LeftShoulder
+    400042: LeftThumb1
+    400044: LeftThumb2
+    400046: LeftThumb2 1
+    400048: LeftThumb3
+    400050: LeftThumb3 1
+    400052: LeftThumb4
+    400054: LeftThumbEND
+    400056: LeftThumbEND 1
+    400058: LeftUppperArm
+    400060: null1
+    400062: RightArm
+    400064: RightArmTwist
+    400066: RightHand
+    400068: RightMiddle1
+    400070: RightMiddle2
+    400072: RightMiddle3
+    400074: RightMiddleEND
+    400076: RightPinky1
+    400078: RightPinky2
+    400080: RightPinky3
+    400082: RightPinkyEND
+    400084: RightRing1
+    400086: RightRing2
+    400088: RightRing3
+    400090: RightRingEND
+    400092: RightShoulder
+    400094: RightThumb1
+    400096: RightThumb2
+    400098: RightThumb2 1
+    400100: RightThumb3
+    400102: RightThumb3 1
+    400104: RightThumb4
+    400106: RightThumbEND
+    400108: RightThumbEND 1
+    400110: RightUppperArm
+    400112: Root
+    400114: ArmsMesh
+    400116: ArmsRig
+    400118: Pill
+    400120: PillRig
+    2100000: 13 - Default
+    2100002: Grenade_Unrigged_Pill
+    2100004: Arms
+    2300000: Grenade_Unrigged:PillGrenade
+    2300002: Pill
+    3300000: Grenade_Unrigged:PillGrenade
+    3300002: Pill
+    4300000: ArmsMEsh
+    4300002: Grenade_Unrigged:PillGrenade
+    4300004: ArmsMesh
+    4300006: Pill
+    7400000: PillLaunch
+    7400002: PillIdle
+    7400004: PillTakeOut
+    7400006: PillWalk
+    9500000: //RootNode
+    13700000: ArmsMEsh
+    13700002: ArmsMesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: cc3bd57a0a1412e4589da15b371cdaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arms
+    second: {fileID: 2100000, guid: cc3bd57a0a1412e4589da15b371cdaf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grenade_Unrigged_Pill
+    second: {fileID: 2100000, guid: c72dfa0fb21982f40bfdf66c61529f2d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PillLaunch
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PillIdle
+      takeName: Take 001
+      firstFrame: 76
+      lastFrame: 317
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PillTakeOut
+      takeName: Take 001
+      firstFrame: 393
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PillWalk
+      takeName: Take 001
+      firstFrame: 430
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
