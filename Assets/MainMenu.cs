@@ -34,9 +34,13 @@ public class MainMenu : MonoBehaviour
     IEnumerator LoadingScreen()
     {
         AsyncOperation startLevel = SceneManager.LoadSceneAsync(ScenesDataBase.instance.scenesNames[1]);
-        loadingProgressBar.fillAmount = startLevel.progress;
+        while(startLevel.progress < 1)
+        {
+            loadingProgressBar.fillAmount = startLevel.progress;
+            yield return new WaitForEndOfFrame();
+        }
 
-        yield return new WaitForEndOfFrame();
+
     }
 
     public void ExitGame()
