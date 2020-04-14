@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Creator Kit - FPS/Scenes/ExampleScene.unity
-    guid: cf8af1738c3cb4b488b72c399f7898f8
   - enabled: 1
     path: Assets/Creator Kit - FPS/Scenes/SceneWorkflow/MainMenu.unity
     guid: c938f83238c9c2940bf9b4a23188439a
   - enabled: 1
+    path: Assets/Creator Kit - FPS/Scenes/SceneWorkflow/Level Scenes/base.unity
+    guid: 903a86db1105cfe49a6c6b9291285a2b
+  - enabled: 1
     path: Assets/Creator Kit - FPS/Scenes/SceneWorkflow/Level Scenes/01.unity
+    guid: 4cf12f3637587d642bed22131a66b67e
+  - enabled: 0
+    path: Assets/Creator Kit - FPS/Scenes/SceneWorkflow/Level Scenes/WholeLevel.unity
     guid: b4ad616e4a20bcb4f81572a57290bb7f
   m_configObjects: {}
