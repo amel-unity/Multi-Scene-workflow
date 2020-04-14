@@ -4,7 +4,11 @@ using UnityEngine;
 public class ScenesDataBase : MonoBehaviour
 {
     public static ScenesDataBase instance;
-    public string[] scenesNames;
+
+    [Header("Level scenes names and positions")]
+    public string[] levelScenesNames;
+    public Transform[] levelScenesPositions;
+
     void Awake()
     {
         instance = this;
