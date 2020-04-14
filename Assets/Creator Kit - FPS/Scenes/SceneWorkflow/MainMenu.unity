@@ -276,30 +276,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1169914212 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1169914212, guid: 0dae529cc825b1544828f6837a9dd920,
-    type: 3}
-  m_PrefabInstance: {fileID: 1996337449375276545}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1590099300 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1590099300, guid: 0dae529cc825b1544828f6837a9dd920,
-    type: 3}
-  m_PrefabInstance: {fileID: 1996337449375276545}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1680282947
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,38 +754,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1169914210, guid: 0dae529cc825b1544828f6837a9dd920, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590099298, guid: 0dae529cc825b1544828f6837a9dd920, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1590099300, guid: 0dae529cc825b1544828f6837a9dd920, type: 3}
-      propertyPath: m_FillAmount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 573286024180171868, guid: 0dae529cc825b1544828f6837a9dd920,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5624662179330694621, guid: 0dae529cc825b1544828f6837a9dd920,
-        type: 3}
-      propertyPath: LoadingScreenBackground
-      value: 
-      objectReference: {fileID: 1169914212}
-    - target: {fileID: 5624662179330694621, guid: 0dae529cc825b1544828f6837a9dd920,
-        type: 3}
-      propertyPath: loadingProgressBar
-      value: 
-      objectReference: {fileID: 1590099300}
-    - target: {fileID: 5624662179330694621, guid: 0dae529cc825b1544828f6837a9dd920,
-        type: 3}
-      propertyPath: Menu
-      value: 
-      objectReference: {fileID: 2035858819281984093}
     - target: {fileID: 7304318593901943053, guid: 0dae529cc825b1544828f6837a9dd920,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -922,9 +866,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0dae529cc825b1544828f6837a9dd920, type: 3}
---- !u!1 &2035858819281984093 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 573286024180171868, guid: 0dae529cc825b1544828f6837a9dd920,
-    type: 3}
-  m_PrefabInstance: {fileID: 1996337449375276545}
-  m_PrefabAsset: {fileID: 0}
