@@ -9,11 +9,13 @@ public class SceneLoader : MonoBehaviour
 
     private Transform[] levelScenesPos;
     private string[] levelScenes;
+    private bool[] sceneLoaded;
 
     void Start()
     {
         levelScenesPos = ScenesDataBase.instance.levelScenesPositions;
         levelScenes = ScenesDataBase.instance.levelScenesNames;
+        sceneLoaded = ScenesDataBase.instance.SceneState;
     }
 
     void Update()
@@ -22,11 +24,19 @@ public class SceneLoader : MonoBehaviour
         for (int i = 0; i < levelScenesPos.Length; ++i)
         {
             if (Vector3.Distance(player.position, levelScenesPos[i].position) < loadRange){
-                SceneManager.LoadSceneAsync(levelScenes[i], LoadSceneMode.Additive);
+                if (!sceneLoaded[i])
+                {
+                    SceneManager.LoadSceneAsync(levelScenes[i], LoadSceneMode.Additive);
+                    sceneLoaded[i] = true;
+                }
             }
             else
             {
-                SceneManager.UnloadSceneAsync(levelScenes[i]);
+                if (sceneLoaded[i])
+                {
+                    SceneManager.UnloadSceneAsync(levelScenes[i]);
+                    sceneLoaded[i] = false;
+                }
             }
         }    
     }
