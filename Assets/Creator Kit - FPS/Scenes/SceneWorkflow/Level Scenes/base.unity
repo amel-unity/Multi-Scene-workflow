@@ -887,28 +887,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
+      propertyPath: MenuScenesNames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
+        type: 3}
       propertyPath: levelScenesNames.Array.data[0]
-      value: 01
+      value: Level01Part01
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
       propertyPath: levelScenesNames.Array.data[1]
-      value: 02
+      value: Level01Part02
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
       propertyPath: levelScenesNames.Array.data[2]
-      value: 03
+      value: Level01Part03
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
       propertyPath: levelScenesNames.Array.data[3]
-      value: 04
+      value: Level01Part04
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
       propertyPath: levelScenesNames.Array.data[4]
-      value: 05
+      value: Level01Part05
       objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
@@ -940,6 +945,16 @@ PrefabInstance:
       propertyPath: levelScenesPositions.Array.data[4]
       value: 
       objectReference: {fileID: 1620312437}
+    - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
+        type: 3}
+      propertyPath: levelScenesPositions.Array.data[5]
+      value: 
+      objectReference: {fileID: 1620312437}
+    - target: {fileID: 3598443827629725793, guid: a48b2333e32c07342a5fdfaac4014579,
+        type: 3}
+      propertyPath: MenuScenesNames.Array.data[0]
+      value: MainMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 3598443827629725794, guid: a48b2333e32c07342a5fdfaac4014579,
         type: 3}
       propertyPath: m_LocalPosition.x
