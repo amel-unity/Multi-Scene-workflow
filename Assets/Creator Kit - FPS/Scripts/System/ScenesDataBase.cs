@@ -3,11 +3,15 @@ using UnityEngine;
 
 public class ScenesDataBase : MonoBehaviour
 {
-    public static ScenesDataBase instance;
-
+    [Header("Level scenes names and positions")]
+    public string[] MenuScenesNames;
     [Header("Level scenes names and positions")]
     public string[] levelScenesNames;
     public Transform[] levelScenesPositions;
+
+    public static ScenesDataBase instance;
+
+    [HideInInspector]
     public bool[] SceneState;
 
     void Awake()
