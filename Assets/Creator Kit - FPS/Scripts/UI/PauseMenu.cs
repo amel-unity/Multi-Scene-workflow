@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -27,6 +28,11 @@ public class PauseMenu : MonoBehaviour
         UIAudioPlayer.PlayPositive();
         gameObject.SetActive(false);
         LevelSelectionUI.Instance.DisplayEpisode();
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(ScenesDataBase.instance.MenuScenesNames[0]);
     }
 
     public void ReturnToGame()

@@ -43,8 +43,6 @@ public class SceneLoader : MonoBehaviour
         for (int i = 0; i < levelScenesPos.Length; ++i)
         {
            
-            //Debug.Log(SceneManager.GetSceneAt(i).name);
-
             if (Vector3.Distance(player.position, levelScenesPos[i].position) < loadRange)
             {
 
