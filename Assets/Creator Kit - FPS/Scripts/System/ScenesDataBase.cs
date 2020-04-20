@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class ScenesDataBase : MonoBehaviour
 {
-    [Header("Level scenes names and positions")]
+    [Header("Level scenes names")]
     public string[] MenuScenesNames;
-    [Header("Level scenes names and positions")]
+    [Header("Level scenes names and positions/Triggers")]
     public string[] levelScenesNames;
+    //For Trigger Check
+    public GameObject[] levelScenesTriggers;
+    //For Distance Check
     public Transform[] levelScenesPositions;
 
     public static ScenesDataBase instance;
