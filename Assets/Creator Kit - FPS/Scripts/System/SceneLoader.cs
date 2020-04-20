@@ -2,16 +2,30 @@
 using System.Collections;
 using UnityEngine;
 
+
+public enum CheckMethod
+{
+    Distance,
+    Trigger
+}
+
 public class SceneLoader : MonoBehaviour
 {
     public Transform player;
-    public float loadRange;
 
-    private Transform[] levelScenesPos;
+
+    public CheckMethod checkMethod;
     private string[] levelScenes;
     private bool[] sceneLoaded;
+
+    //For Distance Check
+    private Transform[] levelScenesPos;
+    //For Trigger check
+    private GameObject[] levelScenesTrig;
+
     void Start()
     {
+        levelScenesTrig = ScenesDataBase.instance.levelScenesTriggers;
         levelScenesPos = ScenesDataBase.instance.levelScenesPositions;
         levelScenes = ScenesDataBase.instance.levelScenesNames;
         sceneLoaded = ScenesDataBase.instance.SceneState;
@@ -39,10 +53,49 @@ public class SceneLoader : MonoBehaviour
 
     void Update()
     {
-      
+        if(checkMethod == CheckMethod.Trigger)
+        {
+            TriggerCheck();
+        }
+        else if(checkMethod == CheckMethod.Distance)
+        {
+            DistanceCheck(); 
+        }
+    }
+
+
+    void TriggerCheck()
+    {
+        for (int i = 0; i < levelScenesTrig.Length; ++i)
+        {
+
+            if (levelScenesTrig[i].GetComponent<TriggerDetection>().GetState())
+            {
+
+                if (!sceneLoaded[i])
+                {
+                    SceneManager.LoadSceneAsync(levelScenes[i], LoadSceneMode.Additive);
+                    sceneLoaded[i] = true;
+                }
+            }
+            else
+            {
+                if (sceneLoaded[i])
+                {
+                    SceneManager.UnloadSceneAsync(levelScenes[i]);
+                    sceneLoaded[i] = false;
+                }
+            }
+
+        }
+    }
+
+    void DistanceCheck()
+    {
         for (int i = 0; i < levelScenesPos.Length; ++i)
         {
-           
+            float loadRange = levelScenesPos[i].GetComponent<DistanceDetection>().GetLoadRange();
+
             if (Vector3.Distance(player.position, levelScenesPos[i].position) < loadRange)
             {
 
@@ -61,6 +114,6 @@ public class SceneLoader : MonoBehaviour
                 }
             }
 
-        }    
+        }
     }
 }
