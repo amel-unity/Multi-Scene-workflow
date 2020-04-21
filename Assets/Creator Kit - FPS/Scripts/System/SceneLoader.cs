@@ -1,5 +1,4 @@
 ﻿using UnityEngine.SceneManagement;
-using System.Collections;
 using UnityEngine;
 
 

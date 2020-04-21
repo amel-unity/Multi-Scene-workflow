@@ -1,11 +1,8 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
-#if UNITY_EDITOR
-using UnityEditor.SceneManagement;
-#endif
+
 public class MainMenu : MonoBehaviour
 {
     public GameObject Menu;
