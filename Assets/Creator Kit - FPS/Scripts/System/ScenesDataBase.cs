@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ScenesDataBase : MonoBehaviour
 {
-    [Header("Level scenes names")]
+    [Header("Menu scenes names")]
     public string[] MenuScenesNames;
     [Header("Level scenes names and positions/Triggers")]
     public string[] levelScenesNames;
