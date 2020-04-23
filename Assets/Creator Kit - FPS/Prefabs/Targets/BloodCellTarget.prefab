@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 613060378875714941}
   - component: {fileID: 6689394087353256158}
   m_Layer: 10
-  m_Name: BloodCell
+  m_Name: BloodCellTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene(ScenesDataBase.instance.MenuScenesNames[0]);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ReturnToGame()

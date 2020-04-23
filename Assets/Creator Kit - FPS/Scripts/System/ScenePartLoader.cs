@@ -48,6 +48,18 @@ public class ScenePartLoader : MonoBehaviour
         }
     }
 
+    void DistanceCheck()
+    {
+        if (Vector3.Distance(player.position, transform.position) < loadRange)
+        {
+            LoadScene();
+        }
+        else
+        {
+            UnLoadScene();
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -76,17 +88,6 @@ public class ScenePartLoader : MonoBehaviour
         }
     }
 
-    void DistanceCheck()
-    {
-        if (Vector3.Distance(player.position, transform.position) < loadRange)
-        {
-            LoadScene();
-        }
-        else
-        {
-            UnLoadScene();
-        }
-    }
 
     void LoadScene()
     {

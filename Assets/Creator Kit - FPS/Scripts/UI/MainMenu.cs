@@ -5,8 +5,8 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject Menu;
-    public Image LoadingScreenBackground;
+    public GameObject menu;
+    public Image loadingScreenBackground;
     public Image loadingProgressBar;
 
     public void StartGame()
@@ -18,20 +18,19 @@ public class MainMenu : MonoBehaviour
 
     public void HideMenu()
     {
-        Menu.SetActive(false);
+        menu.SetActive(false);
     }
 
     public void ShowLoadingScreen()
     {
-        LoadingScreenBackground.gameObject.SetActive(true);
+        loadingScreenBackground.gameObject.SetActive(true);
         loadingProgressBar.gameObject.SetActive(true);
     }
 
-     
     IEnumerator LoadingScreen()
     {
-        AsyncOperation startLevel = SceneManager.LoadSceneAsync("base");
-        while(startLevel.progress < 1)
+        AsyncOperation startLevel = SceneManager.LoadSceneAsync("Gameplay");
+        while (startLevel.progress < 1)
         {
             loadingProgressBar.fillAmount = startLevel.progress;
             yield return new WaitForEndOfFrame();
