@@ -2,17 +2,21 @@
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
-    public Image loadingScreenBackground;
+    public GameObject loadingInterface;
     public Image loadingProgressBar;
 
+    List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
     public void StartGame()
     {
         HideMenu();
         ShowLoadingScreen();
+        scenesToLoad.Add(SceneManager.LoadSceneAsync("Gameplay"));
+        scenesToLoad.Add(SceneManager.LoadSceneAsync("Level01Part01", LoadSceneMode.Additive));
         StartCoroutine(LoadingScreen());
     }
 
@@ -23,17 +27,20 @@ public class MainMenu : MonoBehaviour
 
     public void ShowLoadingScreen()
     {
-        loadingScreenBackground.gameObject.SetActive(true);
-        loadingProgressBar.gameObject.SetActive(true);
+        loadingInterface.SetActive(true);
     }
 
     IEnumerator LoadingScreen()
     {
-        AsyncOperation startLevel = SceneManager.LoadSceneAsync("Gameplay");
-        while (startLevel.progress < 1)
+        float totalProgress=0;
+        for(int i=0; i<scenesToLoad.Count; ++i)
         {
-            loadingProgressBar.fillAmount = startLevel.progress;
-            yield return new WaitForEndOfFrame();
+            while (!scenesToLoad[i].isDone)
+            {
+                totalProgress += scenesToLoad[i].progress;
+                loadingProgressBar.fillAmount = totalProgress/scenesToLoad.Count;
+                yield return null;
+            }
         }
     }
 

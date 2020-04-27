@@ -24,13 +24,9 @@ public class ScenePartLoader : MonoBehaviour
             for (int i = 0; i < SceneManager.sceneCount; ++i)
             {
                 Scene scene = SceneManager.GetSceneAt(i);
-
-                if (scene.isLoaded)
+                if (scene.name == gameObject.name)
                 {
-                    if (scene.name == gameObject.name)
-                    {
-                        isLoaded = true;
-                    }
+                    isLoaded = true;
                 }
             }
         }
@@ -57,6 +53,24 @@ public class ScenePartLoader : MonoBehaviour
         else
         {
             UnLoadScene();
+        }
+    }
+
+    void LoadScene()
+    {
+        if (!isLoaded)
+        {
+            SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
+            isLoaded = true;
+        }
+    }
+
+    void UnLoadScene()
+    {
+        if (isLoaded)
+        {
+            SceneManager.UnloadSceneAsync(gameObject.name);
+            isLoaded = false;
         }
     }
 
@@ -89,22 +103,6 @@ public class ScenePartLoader : MonoBehaviour
     }
 
 
-    void LoadScene()
-    {
-        if (!isLoaded)
-        {
-            SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
-            isLoaded = true;
-        }
-    }
 
-    void UnLoadScene()
-    {
-        if (isLoaded)
-        {
-            SceneManager.UnloadSceneAsync(gameObject.name);
-            isLoaded = false;
-        }
-    }
 }
 
