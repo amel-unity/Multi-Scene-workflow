@@ -34,6 +34,7 @@ public class ScenePartLoader : MonoBehaviour
 
     void Update()
     {
+        //Checking which method to use
         if (checkMethod == CheckMethod.Distance)
         {
             DistanceCheck();
@@ -46,6 +47,7 @@ public class ScenePartLoader : MonoBehaviour
 
     void DistanceCheck()
     {
+        //Checking if the player is within the range
         if (Vector3.Distance(player.position, transform.position) < loadRange)
         {
             LoadScene();
@@ -60,7 +62,9 @@ public class ScenePartLoader : MonoBehaviour
     {
         if (!isLoaded)
         {
+            //Loading the scene, using the gameobject name as it's the same as the name of the scene to load
             SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
+            //We set it to true to avoid loading the scene twice
             isLoaded = true;
         }
     }
@@ -92,6 +96,7 @@ public class ScenePartLoader : MonoBehaviour
 
     void TriggerCheck()
     {
+        //shouldLoad is set from the Trigger methods
         if (shouldLoad)
         {
             LoadScene();
