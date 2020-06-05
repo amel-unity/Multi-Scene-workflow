@@ -22,6 +22,17 @@ public class MainMenu : MonoBehaviour
         StartCoroutine(LoadingScreen());
     }
 
+    public void StartGameSO()
+    {
+        HideMenu();
+        ShowLoadingScreen();
+        //Load the Scene asynchronously in the background
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Gameplay"));
+        //Additive mode adds the Scene to the current loaded Scenes, in this case Gameplay scene
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Level01Part01", LoadSceneMode.Additive));
+        StartCoroutine(LoadingScreen());
+    }
+
     public void HideMenu()
     {
         menu.SetActive(false);
