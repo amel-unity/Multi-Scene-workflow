@@ -17,8 +17,14 @@ public class ScenesData : ScriptableObject
     //Load a scene with a given index
     public void LoadLevelWithIndex(int index)
     {
-        string currentLevelName = levels[index].sceneName;
-        SceneManager.LoadSceneAsync(currentLevelName);
+        //string currentLevelName = levels[index].sceneName;
+        //SceneManager.LoadSceneAsync(currentLevelName);
+
+        //Load Gameplay scene for the level
+        SceneManager.LoadSceneAsync("Gameplay" + index.ToString());
+        //Load first part of the level in additive mode
+        SceneManager.LoadSceneAsync("Level"+index.ToString()+"Part"+ index, LoadSceneMode.Additive);
+
     }
     //Start next level
     public void NextLevel()
