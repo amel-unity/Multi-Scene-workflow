@@ -12,7 +12,12 @@ public class ScenesData : ScriptableObject
     public int CurrentLevelIndex=1;
 
     //To save the currentLevelIndex when we leave the game, but are we going this far for the blog post?
-    public bool Save;
+    public bool SaveDuringGame;
+
+
+    /*
+     * Levels
+     */
 
     //Load a scene with a given index
     public void LoadLevelWithIndex(int index)
@@ -42,6 +47,16 @@ public class ScenesData : ScriptableObject
     {
         LoadLevelWithIndex(0);
     }
+
+    public int GetNameFromIndex()
+    {
+        return 0;
+    }
+
+    /*
+     * Menus
+     */
+
     //Load main Menu
     public void LoadMainMenu()
     {

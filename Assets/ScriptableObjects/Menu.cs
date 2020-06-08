@@ -10,6 +10,6 @@ public enum Type
 public class Menu : GameScene
 {
     //Settings specific to menu only
-    [Header("Menu")]
+    [Header("Menu specific")]
     public Type type;
 }

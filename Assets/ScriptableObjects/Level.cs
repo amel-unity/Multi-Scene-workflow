@@ -4,6 +4,6 @@
 public class Level : GameScene
 {
     //Settings specific to level only
-    [Header("Level")]
+    [Header("Level specific")]
     public float timer;
 }

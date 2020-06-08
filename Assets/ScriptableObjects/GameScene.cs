@@ -5,6 +5,7 @@ public class GameScene : ScriptableObject
     [Header("Information")]
     public string sceneName;
     //public int index;
+    public string shortDescription;
 
     [Header("Sounds")]
     public AudioClip music;
