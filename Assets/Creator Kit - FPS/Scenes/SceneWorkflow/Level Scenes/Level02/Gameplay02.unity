@@ -985,7 +985,7 @@ PrefabInstance:
     - target: {fileID: 1824217355796682321, guid: 26ce63417dd726a42b584f5d4a3a8c3b,
         type: 3}
       propertyPath: m_Name
-      value: Level02Part01
+      value: Level2Part1
       objectReference: {fileID: 0}
     - target: {fileID: 1824217355796682323, guid: 26ce63417dd726a42b584f5d4a3a8c3b,
         type: 3}
@@ -1004,7 +1004,7 @@ PrefabInstance:
     - target: {fileID: 3869811182949433432, guid: acff4ff3e1aa92e48ae4de0e921b27ec,
         type: 3}
       propertyPath: m_Name
-      value: Level02Part05
+      value: Level2Part5
       objectReference: {fileID: 0}
     - target: {fileID: 3869811182949433433, guid: acff4ff3e1aa92e48ae4de0e921b27ec,
         type: 3}
@@ -1083,7 +1083,7 @@ PrefabInstance:
     - target: {fileID: 5840700113524925308, guid: 2a1b03f515bfe984da9fe94affbb2edf,
         type: 3}
       propertyPath: m_Name
-      value: Level02Part02
+      value: Level2Part2
       objectReference: {fileID: 0}
     - target: {fileID: 5840700113524925309, guid: 2a1b03f515bfe984da9fe94affbb2edf,
         type: 3}
@@ -1212,7 +1212,7 @@ PrefabInstance:
     - target: {fileID: 6158017312729346519, guid: 0ac9bf6199f87144bb69b57db8a38f64,
         type: 3}
       propertyPath: m_Name
-      value: Level02Part04
+      value: Level2Part4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ac9bf6199f87144bb69b57db8a38f64, type: 3}
@@ -1286,7 +1286,7 @@ PrefabInstance:
     - target: {fileID: 8833413576026801715, guid: 51d1f281c676ab34e937fb418627fe11,
         type: 3}
       propertyPath: m_Name
-      value: Level02Part03
+      value: Level2Part3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51d1f281c676ab34e937fb418627fe11, type: 3}
