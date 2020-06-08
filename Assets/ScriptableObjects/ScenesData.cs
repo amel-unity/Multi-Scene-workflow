@@ -48,7 +48,7 @@ public class ScenesData : ScriptableObject
         SceneManager.LoadSceneAsync(menus[(int)Type.Main_Menu].sceneName);
     }
 
-    //Load main Menu
+    //Load Pause Menu
     public void LoadPauseMenu()
     {
         SceneManager.LoadSceneAsync(menus[(int)Type.Pause_Menu].sceneName);
