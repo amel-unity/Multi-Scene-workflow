@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad948f0055b07e84e84b809ad2698335, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
-  sceneName: Level01
-  index: 1
+  sceneName: Level1
+  shortDescription: 
   music: {fileID: 8300000, guid: a5d02aa7f856a4048aad35bec103c165, type: 3}
   musicVolume: 0.8
   postprocss: {fileID: 11400000, guid: 9c501c517cfc76c4594b0ad3a892fd81, type: 2}
-  timer: 0
+  enemiesCount: 0

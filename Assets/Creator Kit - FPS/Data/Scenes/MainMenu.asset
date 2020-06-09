@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: MainMenu
   m_EditorClassIdentifier: 
   sceneName: MainMenu
+  shortDescription: The main menu of the game
   music: {fileID: 8300000, guid: 28a59aea5642b964a8bf5a645599e797, type: 3}
   musicVolume: 0.8
   postprocss: {fileID: 11400000, guid: 9c501c517cfc76c4594b0ad3a892fd81, type: 2}
