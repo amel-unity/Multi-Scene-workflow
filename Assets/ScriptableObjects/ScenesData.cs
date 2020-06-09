@@ -14,7 +14,10 @@ public class ScenesData : ScriptableObject
     //To save the currentLevelIndex when we leave the game, but are we going this far for the blog post?
     public bool SaveDuringGame;
 
-
+    private void OnEnable()
+    {
+        if (!SaveDuringGame) ResetIndex();
+    }
     /*
      * Levels
      */
@@ -25,11 +28,16 @@ public class ScenesData : ScriptableObject
         //string currentLevelName = levels[index].sceneName;
         //SceneManager.LoadSceneAsync(currentLevelName);
 
-        //Load Gameplay scene for the level
-        SceneManager.LoadSceneAsync("Gameplay" + index.ToString());
-        //Load first part of the level in additive mode
-        SceneManager.LoadSceneAsync("Level"+index.ToString()+"Part"+ index, LoadSceneMode.Additive);
-
+        if (index <= levels.Count)
+        {
+            //Load Gameplay scene for the level
+            SceneManager.LoadSceneAsync("Gameplay" + index.ToString());
+            //Load first part of the level in additive mode
+            SceneManager.LoadSceneAsync("Level" + index.ToString() + "Part" + index, LoadSceneMode.Additive);
+            //SceneManager.LoadSceneAsync(levels[index].SceneAsset.name, LoadSceneMode.Additive);
+        }
+        //reset the index if we have no more levels
+        else ResetIndex();
     }
     //Start next level
     public void NextLevel()
@@ -42,17 +50,19 @@ public class ScenesData : ScriptableObject
     {
         LoadLevelWithIndex(CurrentLevelIndex);
     }
-    //New game, load level 0
+    //New game, load level 1
     public void NewGame()
     {
-        LoadLevelWithIndex(0);
+        LoadLevelWithIndex(1);
     }
-
-    public int GetNameFromIndex()
+    
+    //Reset index to the first level
+    public void ResetIndex()
     {
-        return 0;
+        CurrentLevelIndex = 1;
     }
 
+   
     /*
      * Menus
      */

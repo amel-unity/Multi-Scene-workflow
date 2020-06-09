@@ -5,5 +5,6 @@ public class Level : GameScene
 {
     //Settings specific to level only
     [Header("Level specific")]
-    public float timer;
+    //public float timer;
+    public int enemiesCount;
 }

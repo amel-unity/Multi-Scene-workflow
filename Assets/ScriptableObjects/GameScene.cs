@@ -4,6 +4,7 @@ public class GameScene : ScriptableObject
 {
     [Header("Information")]
     public string sceneName;
+    //public Object SceneAsset;
     //public int index;
     public string shortDescription;
 
@@ -12,6 +13,6 @@ public class GameScene : ScriptableObject
     [Range(0.0f, 1.0f)]
     public float musicVolume;
 
-    [Header("visuals")]
+    [Header("Visuals")]
     public PostProcessProfile postprocss;
 }
