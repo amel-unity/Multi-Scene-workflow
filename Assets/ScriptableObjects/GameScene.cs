@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.SceneManagement;
+
 public class GameScene : ScriptableObject
 {
     [Header("Information")]
     public string sceneName;
-    //public Object SceneAsset;
-    //public int index;
     public string shortDescription;
 
     [Header("Sounds")]
