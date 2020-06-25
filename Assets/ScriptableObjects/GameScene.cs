@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
-using UnityEngine.SceneManagement;
 
 public class GameScene : ScriptableObject
 {
@@ -14,5 +13,5 @@ public class GameScene : ScriptableObject
     public float musicVolume;
 
     [Header("Visuals")]
-    public PostProcessProfile postprocss;
+    public PostProcessProfile postprocess;
 }

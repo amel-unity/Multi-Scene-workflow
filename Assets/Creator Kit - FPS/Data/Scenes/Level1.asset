@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   sceneName: Level1
-  shortDescription: 
+  shortDescription: First level with 2 keys to find
   music: {fileID: 8300000, guid: a5d02aa7f856a4048aad35bec103c165, type: 3}
   musicVolume: 0.8
-  postprocss: {fileID: 11400000, guid: 9c501c517cfc76c4594b0ad3a892fd81, type: 2}
-  enemiesCount: 0
+  postprocess: {fileID: 11400000, guid: 9c501c517cfc76c4594b0ad3a892fd81, type: 2}
+  enemiesCount: 6
