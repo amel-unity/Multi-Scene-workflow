@@ -1,5 +1,5 @@
 # Multi Scene workflow
-This is a demo project that features scene management using prefabs and Scriptable game objects in Unity.
+This is a demo project that features scene management using prefabs and ScriptableObjects in Unity.
 The project is based on Creator Kit: FPS project ( Link to the base project on Unity Learn https://learn.unity.com/project/creator-kit-fps)
 
 ## Blog Post and Video
